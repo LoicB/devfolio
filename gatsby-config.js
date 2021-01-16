@@ -3,64 +3,71 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Loïc Beylot',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Loïc Beylot | Software Development Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software development engineer`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@_LoicB`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/LoicB`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/loicbeylot/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `
+    Highly motivated and knowledgeable software developer with eleven years of 
+    commercial experience, I am currently working for Ricoh Europe PLC, as a 
+    Software development engineer, creating applications using Java, and 
+    React/TypeScrip. 
+    
+    My path in programming started as early as primary school when I was 
+    introduced to my very first programming language, Logo. 
+    Later, I really started learning to program at university, where I learned 
+    Java, which I am still using today, and discovered the first programming 
+    methodologies such as TDD and Extreme Programming. 
+    During my first professional experience, we worked on accessibility solutions, 
+    creating frontend interfaces with Swing and mobile applications (J2ME, 
+    Android, and iOS). 
+    This is during that experience that I learn to focus on creating clean code,
+    maintainable and easy to read.
+    
+    Nowadays I am working on office solutions, in an Agile environment, to 
+    provide to our customer easy connection to the cloud to improve their productivity.
+    `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Advent of code 2020',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+          'Advent of code is a yearly event, during which a new puzzle is published every day during the advent season',
+        link: 'https://github.com/LoicB/Advent-of-Code-2020',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Ricoh Europe PLC',
+        description: 'Software Development Engineer, June 2013 - Present',
+        link: 'https://www.ricoh-europe.com/index.html',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Anritsu',
+        description: 'Software Development Engineer, February 2012 - October 2012',
+        link: 'https://www.anritsu.com/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'DSPG Telecom',
+        description: 'Software Developer, June 2007 - August 2001',
+        link: 'http://www.dspg.co.uk',
       },
     ],
-    // Optional: List your skills, they must have `name` and `description`.
+    // Optional: List your skills, mthey must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java (SDK-8), Groovy, Junit, Spock, React, Typescript',
       },
       {
         name: 'Databases',
@@ -69,7 +76,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), Agile / Scrum',
       },
     ],
   },
