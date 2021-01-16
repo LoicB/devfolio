@@ -16,31 +16,33 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/loicbeylot/`,
     // Content of the About Me section
     about: `
-    I am a highly motivated and knowledgeable Java developer with eleven years of commercial experience, including front end development experiences (React, Swing) and mobile experiences (J2ME, iOS, and Android).
-    Currently, I work for Ricoh Europe PLC, as a Software development engineer, creating applications using Java, and Typescript as main programming languages.
+    Highly motivated and knowledgeable software developer with eleven years of 
+    commercial experience, I am currently working for Ricoh Europe PLC, as a 
+    Software development engineer, creating applications using Java, and 
+    React/TypeScrip. 
     
-My very first experience of coding was in Primary school. With my classmates, we were introduced to our very first programming language, Logo. We did not know that it was coding per se. but moving the little turtle using simple commands was a lot of fun. 
-It is a university that I really learned how to do programming, by applying newly acquired language such as Java and C, combined with methodologies (XP, TDD)`,
+    My path in programming started as early as primary school when I was 
+    introduced to my very first programming language, Logo. 
+    Later, I really started learning to program at university, where I learned 
+    Java, which I am still using today, and discovered the first programming 
+    methodologies such as TDD and Extreme Programming. 
+    During my first professional experience, we worked on accessibility solutions, 
+    creating frontend interfaces with Swing and mobile applications (J2ME, 
+    Android, and iOS). 
+    This is during that experience that I learn to focus on creating clean code,
+    maintainable and easy to read.
+    
+    Nowadays I am working on office solutions, in an Agile environment, to 
+    provide to our customer easy connection to the cloud to improve their productivity.
+    `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Advent of code 2020',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+          'Advent of code is a yearly event, during which a new puzzle is published every day during the advent season',
+        link: 'https://github.com/LoicB/Advent-of-Code-2020',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
